@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run bs | npm run watch | npm run sass",
-    "sass": "node-sass src/scss/home.scss docs/css/home.css && node-sass src/scss/home.scss docs/css/home.css -w src/scss",
+    "sass": "node-sass src/scss/home.scss docs/css/home.css && node-sass src/scss/students.scss docs/css/students.css && node-sass src/scss/calendar.scss docs/css/calendar.css && node-sass src/scss/home.scss docs/css/home.css -w src/scss | node-sass src/scss/students.scss docs/css/students.css -w src/scss | node-sass src/scss/calendar.scss docs/css/calendar.css -w src/scss",
     "bs": "browser-sync start --server --serveStatic 'docs' --files 'docs'",
-    "partials": "html-include-comment src/index.html docs/index.html",
+    "partials": "html-include-comment src/index.html docs/index.html && html-include-comment src/students.html docs/students.html html-include-comment src/calendar.html docs/calendar.html",
     "watch": "watch 'npm run partials' src --interval=0.1"
   },
   "author": "",
