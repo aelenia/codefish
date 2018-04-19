@@ -14,26 +14,37 @@
 }
 
 h2 {
-  color: black;
+  color: white;
   font-size: 2rem;
 }
 
 a {
-  background: white;
-  height: 35vh;
-  width: 80vw;
+  height: 42.5vh;
+  width: 100vw;
   text-decoration: none;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 
   &:hover {
     text-decoration: none;
-    background: skyblue;
+
+    img, h2 {
+      transform: scale(1.5)
+    }
   }
 
   @media (min-width: 600px) {
     height: 50vh;
     width: 40vw;
   }
+}
+
+.students {
+  background: orange;
+}
+
+.calendar {
+  background: skyblue;
 }
