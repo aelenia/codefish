@@ -6298,21 +6298,9 @@ a {
       height: 50vh;
       width: 40vw; } }
 
-.topic {
-  font-family: 'Open Sans', sans-serif;
+header {
   background-color: #91BED4;
-  background-size: auto;
   font-size: 80px;
-  text-shadow: 4px 0.5px 0px #c5c5c5;
-  margin: 3px;
-  line-height: 1.5;
-  font-weight: bold;
-  text-transform: uppercase;
+  text-align: center;
   height: 15vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  xmin-width: 64em;
-  xwidth: 518px;
-  xheight: 320px; }
+  color: #FFFFFF; }
