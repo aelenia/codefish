@@ -12,18 +12,24 @@
   height: 100%;
   padding: 1em;
   background: #91BED4;
+  color: white;
 }
 
 .week {
   display: inline;
   width: 2em;
-  margin: 0 2em 0 1em;
+  height: 2em;
+  margin: 0;
+  border-radius: 20%;
 }
 
 .weekday {
   display: inline;
-  width: 8em;
-  margin: 0 2em 0 1em;
+  height: 2.1em;
+  width: 6em;
+  margin: 0;
+
+  //border-radius: 20%;
 }
 
 .notes {
@@ -33,5 +39,9 @@
 }
 
 .btn {
-  margin-left: auto;
+  //margin-left: auto;
+}
+
+label {
+  font-size: 25px;
 }
