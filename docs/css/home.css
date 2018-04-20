@@ -6267,6 +6267,13 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
+header {
+  background-color: #91BED4;
+  font-size: 80px;
+  text-align: center;
+  height: 15vh;
+  color: #FFFFFF; }
+
 .box {
   background: white;
   display: flex;
@@ -6289,7 +6296,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+  transition: transform .5s; }
   a:hover {
     text-decoration: none; }
     a:hover img, a:hover h2 {

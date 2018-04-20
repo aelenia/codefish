@@ -6318,7 +6318,8 @@ ul {
 .icon {
   display: flex;
   height: 10vh;
-  width: 20px; }
+  width: 20px; 
+}
 
 .contact-icon {
   object-fit: cover; }

@@ -1,5 +1,12 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+header {
+  background-color: #91BED4;
+  font-size: 80px;
+  text-align: center;
+  height: 15vh;
+  color: #FFFFFF; }
+
 .box {
   background: white;
   display: flex;
@@ -26,6 +33,7 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  transition: transform .5s;
 
   &:hover {
     text-decoration: none;
