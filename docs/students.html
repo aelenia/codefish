@@ -17,13 +17,21 @@
     <li class="student">
       <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" class="photo">
       <div class="name">Klara Klug</div>
-      <a href="#data" data-toggle="collapse" role=“button” aria-expanded=“false” aria-controls=“collapseExample”>
-        <img src="../../docs/img/contact.png" class="icon"></a>
-      <div class="collapse" id="data">
-        <div class="card">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, nostrum ipsam vero possimus, dicta minima quaerat vel facere nemo ad saepe quo est dignissimos harum nam culpa, dolorem fuga ipsa?
+      <div id="accordion">
+        <div class="card icon">
+          <div class="card-header" id="headingOne">
+            <button data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <img src="../../docs/img/contact.png" class="contact-icon">
+            </button>
+          </div>
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              E-Mail: <br> 
+              Mobile: <br> 
+              Birthday:
+            </div>
+          </div>
         </div>
-      </div>
     </li>
     <li class="student"></li>
     <li class="student"></li>
