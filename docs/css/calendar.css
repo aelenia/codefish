@@ -1,0 +1,27 @@
+.calbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  padding: 1em;
+  background: slateblue; }
+
+.week {
+  display: block;
+  width: 2em;
+  margin: 0 2em 0 1em; }
+
+.weekday {
+  display: block;
+  width: 4em;
+  margin: 0 2em 0 1em; }
+
+.notes {
+  display: block;
+  width: 100%;
+  height: 66%; }
+
+.btn {
+  margin-left: auto; }
