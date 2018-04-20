@@ -1,23 +1,28 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.container{
+  height:70vh;
+}
 .calbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
-  width: 50vw;
-  height: 50vh;
+  width: 100%;
+  height: 100%;
   padding: 1em;
-  background: slateblue;
+  background: #91BED4;
 }
 
 .week {
-  display: block;
+  display: inline;
   width: 2em;
   margin: 0 2em 0 1em;
 }
 
 .weekday {
-  display: block;
-  width: 4em;
+  display: inline;
+  width: 8em;
   margin: 0 2em 0 1em;
 }
 
