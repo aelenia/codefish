@@ -33,6 +33,7 @@ a {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  transition: transform .5s;
 
   &:hover {
     text-decoration: none;
