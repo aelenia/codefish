@@ -56,12 +56,10 @@ ul {
 }
 .icon{
   display: flex;
-  height: 8vh;
-  width: 6vh;
-  padding: 2vh;
+  height: 10vh;
+  width:20px;
 
 }
-
-.icon:hover{
-  transform: scale(1.3);
+.contact-icon{
+  object-fit: cover;
 }
