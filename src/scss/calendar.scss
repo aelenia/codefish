@@ -1,0 +1,47 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.container{
+  height:70vh;
+}
+.calbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+  background: #91BED4;
+  color: white;
+}
+
+.week {
+  display: inline;
+  width: 2em;
+  height: 2em;
+  margin: 0;
+  border-radius: 20%;
+}
+
+.weekday {
+  display: inline;
+  height: 2.1em;
+  width: 6em;
+  margin: 0;
+
+  //border-radius: 20%;
+}
+
+.notes {
+  display: block;
+  width: 100%;
+  height: 66%;
+}
+
+.btn {
+  //margin-left: auto;
+}
+
+label {
+  font-size: 25px;
+}
