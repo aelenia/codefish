@@ -17,7 +17,10 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+main{
+  height: 70vh;
+  overflow-x: scroll;
+}
 .header-text {
   font-size: 2.5rem;
   color: $wh; 
