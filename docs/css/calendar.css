@@ -6267,9 +6267,15 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
+$db: #304269;
+$mb: #91BED4;
+$lb: #D9E8F5;
+$wh: #FFFFFF;
+$or: #F26101;
+
 header {
-  background-color: #304269;
-  background-color: #91BED4;
+  background-color: $db;
+  background-color: $mb;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -6277,10 +6283,10 @@ header {
 
 .header-text {
   font-size: 2.5rem;
-  color: #FFFFFF; }
+  color: $wh; }
 
 main {
-  background: #91BED4; }
+  background: $mb; }
 
 .calbox {
   display: flex;
@@ -6288,8 +6294,8 @@ main {
   justify-content: start;
   align-items: center;
   padding: 1em;
-  background: #91BED4;
-  color: #FFFFFF;
+  background: $mb;
+  color: $wh;
   height: 70vh; }
 
 .week {
@@ -6319,11 +6325,11 @@ label {
   width: 65px;
   border-radius: 3px;
   padding-bottom: 10px;
-  border: 2px solid #304269;
-  background-color: #FFFFFF; }
+  border: 2px solid $db;
+  background-color: $wh; }
 
 .att_button:hover {
-  background: #FFFFFF;
+  background: $wh;
   border-width: 3px;
   border-color: #F26101; }
 
@@ -6332,15 +6338,15 @@ footer {
   position: sticky;
   top: 85%;
   left: 0;
-  background: #F26101;
+  background: $or;
   display: flex;
   justify-content: center;
   align-items: center; }
 
 footer a {
-  color: #FFFFFF;
+  color: $wh;
   font-size: 2.5rem; }
   footer a:hover {
     text-decoration: none;
-    color: #FFFFFF;
+    color: $wh;
     transform: scale(1.2); }
