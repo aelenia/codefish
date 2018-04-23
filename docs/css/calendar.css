@@ -6312,3 +6312,21 @@ header {
 
 label {
   font-size: 25px; }
+
+footer {
+  height: 15vh;
+  position: sticky;
+  top: 85%;
+  left: 0;
+  background: #F26101;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+footer a {
+  color: white;
+  font-size: 2.5rem; }
+  footer a:hover {
+    text-decoration: none;
+    color: white;
+    transform: scale(1.2); }
