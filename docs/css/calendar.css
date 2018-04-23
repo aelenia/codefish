@@ -6267,14 +6267,8 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
-+$db: #304269;
-+$mb: #91BED4;
-+$lb: #D9E8F5;
-+$wh: #FFFFFF;
-+$or: #F26101;
-
 header {
-  background-color: $mb;
+  background-color: #304269;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -6282,7 +6276,7 @@ header {
 
 .header-text {
   font-size: 2.5rem;
-  color: $wh; }
+  color: #FFFFFF; }
 
 main {
   background: #91BED4; }
@@ -6293,8 +6287,8 @@ main {
   justify-content: start;
   align-items: center;
   padding: 1em;
-  background: #$mb;
-  color: $wh;
+  background: #91BED4;
+  color: #FFFFFF;
   height: 70vh; }
 
 .week {
@@ -6324,28 +6318,28 @@ label {
   width: 65px;
   border-radius: 3px;
   padding-bottom: 10px;
-  border: 2px solid $db;
-  background-color: $wh; }
+  border: 2px solid #304269;
+  background-color: #FFFFFF; }
 
 .att_button:hover {
-  background: $wh;
+  background: #FFFFFF;
   border-width: 3px;
-  border-color: $or; }
+  border-color: #F26101; }
 
 footer {
   height: 15vh;
   position: sticky;
   top: 85%;
   left: 0;
-  background: $or;
+  background: #F26101;
   display: flex;
   justify-content: center;
   align-items: center; }
 
 footer a {
-  color: $wh;
+  color: #FFFFFF;
   font-size: 2.5rem; }
   footer a:hover {
     text-decoration: none;
-    color: $wh;
+    color: #FFFFFF;
     transform: scale(1.2); }

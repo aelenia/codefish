@@ -1,7 +1,7 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 $db: #304269;
-$mb:#91BED4;
+$mb: #91BED4;
 $lb: #D9E8F5;
 $wh: #FFFFFF;
 $or: #F26101;
@@ -11,7 +11,7 @@ body{
 }
 
 header {
-  background-color: $mb;
+  background-color: $db;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ header {
 }
 
 .box {
-  background-color: $lb;
+  background-color: $mb;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

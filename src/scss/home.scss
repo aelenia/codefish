@@ -1,7 +1,13 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+$db: #304269;
+$mb: #91BED4;
+$lb: #D9E8F5;
+$wh: #FFFFFF;
+$or: #F26101;
+
 header {
-  background-color: #91BED4;
+  background-color: $mb;
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -10,7 +16,7 @@ header {
 
 .header-text {
   font-size: 2.5rem;
-  color: #FFFFFF; 
+  color: $wh; 
 }
 
 .box {
@@ -27,7 +33,7 @@ header {
 }
 
 h2 {
-  color: white;
+  color: $wh;
   font-size: 2.5rem;
 }
 
@@ -56,9 +62,9 @@ a {
 }
 
 .students {
-  background: #F26101;
+  background: $or;
 }
 
 .calendar {
-  background: #304269;
+  background: $db;
 }
