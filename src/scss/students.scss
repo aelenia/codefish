@@ -1,33 +1,29 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-$db: #304269;
-$mb: #91BED4;
-$lb: #D9E8F5;
-$wh: #FFFFFF;
-$or: #F26101;
-
 body{
   height: 100vh;
 }
 
 header {
-  background-color: $db;
+  background-color: #304269;
   height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 main{
   height: 70vh;
   overflow-x: scroll;
 }
+
 .header-text {
   font-size: 2.5rem;
-  color: $wh; 
+  color: #FFFFFF; 
 }
 
 .box {
-  background-color: $mb;
+  background-color: #91BED4;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -43,8 +39,7 @@ ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  
-  background-color: $wh;
+  background-color: #FFFFFF;
   height: auto;
   margin-bottom: 1vh;
 }
@@ -81,7 +76,7 @@ ul {
   color: $or;
   width: 30vw;
   text-align: start;
-  border: 3px solid $db;
+  border: 3px solid #304269;
   padding: 5px;
   margin-bottom: 5px;
   margin-right: 10px;
@@ -99,19 +94,19 @@ footer {
   position: sticky;
   top: 85%;
   left: 0;
-  background: $or;
+  background: #F26101;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 footer a {
-  color: $wh;
+  color: #FFFFFF;
   font-size: 2.5rem;
 
   &:hover {
     text-decoration: none;
-    color: $wh;
+    color: #FFFFFF;
     transform: scale(1.2)
   }
 }
