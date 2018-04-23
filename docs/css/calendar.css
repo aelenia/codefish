@@ -6287,7 +6287,7 @@ header {
   height: 100%;
   padding: 1em;
   background: #91BED4;
-  color: white;
+  color: #FFFFFF;
   height: 70vh; }
 
 .week {
@@ -6311,6 +6311,20 @@ header {
 label {
   font-size: 25px; }
 
+.att_button {
+  text-align: center;
+  height: 50px;
+  width: 65px;
+  border-radius: 3px;
+  padding-bottom: 10px;
+  border: 2px solid #304269;
+  background-color: #FFFFFF; }
+
+.att_button:hover {
+  background: #FFFFFF;
+  border-width: 3px;
+  border-color: #F26101; }
+
 footer {
   height: 15vh;
   position: sticky;
@@ -6322,9 +6336,9 @@ footer {
   align-items: center; }
 
 footer a {
-  color: white;
+  color: #FFFFFF;
   font-size: 2.5rem; }
   footer a:hover {
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
     transform: scale(1.2); }
