@@ -20,13 +20,15 @@ header {
   color: $wh; 
 }
 
+main {
+  background: #91BED4;
+}
+
 .calbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
-  width: 100%;
-  height: 100%;
   padding: 1em;
   background: $mb;
   color: $wh;
