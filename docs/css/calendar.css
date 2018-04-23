@@ -6267,26 +6267,22 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
-$db: #304269;
-$mb: #91BED4;
-$lb: #D9E8F5;
-$wh: #FFFFFF;
-$or: #F26101;
-
 header {
-  background-color: $db;
-  background-color: $mb;
+  background-color: #304269;
   height: 15vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .header-text {
   font-size: 2.5rem;
-  color: $wh; }
+  color: #F26101; 
+}
 
 main {
-  background: $mb; }
+  background: #91BED4;
+}
 
 .calbox {
   display: flex;
@@ -6294,59 +6290,76 @@ main {
   justify-content: start;
   align-items: center;
   padding: 1em;
-  background: $mb;
-  color: $wh;
-  height: 70vh; }
+  background: #91BED4;
+  color: #F26101;
+  height:70vh;
+}
 
 .week {
   display: inline;
   width: 2em;
   height: 2em;
   margin: 0;
-  border-radius: 20%; }
+  border-radius: 20%;
+}
 
 .weekday {
   display: inline;
   height: 2.1em;
   width: 6em;
-  margin: 0; }
+  margin: 0;
+
+  //border-radius: 20%;
+}
 
 .notes {
   display: block;
   width: 100%;
-  height: 66%; }
+  height: 66%;
+}
+
+.btn {
+  //margin-left: auto;
+}
 
 label {
-  font-size: 25px; }
+  font-size: 25px;
+}
 
-.att_button {
+.att_button{
   text-align: center;
   height: 50px;
   width: 65px;
   border-radius: 3px;
   padding-bottom: 10px;
-  border: 2px solid $db;
-  background-color: $wh; }
+  border: 2px solid #304269;
+  background-color: #F26101;
+}
 
-.att_button:hover {
-  background: $wh;
+.att_button:hover{
+  background: #F26101;
   border-width: 3px;
-  border-color: #F26101; }
+  border-color: #F26101;
+}
 
 footer {
   height: 15vh;
   position: sticky;
   top: 85%;
   left: 0;
-  background: $or;
+  background: #F26101;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 footer a {
-  color: $wh;
-  font-size: 2.5rem; }
-  footer a:hover {
+  color: #F26101;
+  font-size: 2.5rem;
+
+  &:hover {
     text-decoration: none;
-    color: $wh;
-    transform: scale(1.2); }
+    color: #F26101;
+    transform: scale(1.2)
+  }
+}

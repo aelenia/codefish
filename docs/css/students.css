@@ -6267,103 +6267,113 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
-$db: #304269;
-$mb: #91BED4;
-$lb: #D9E8F5;
-$wh: #FFFFFF;
-$or: #F26101;
-
-body {
-  height: 100vh; }
+body{
+  height: 100vh;
+}
 
 header {
-  background-color: $db;
+  background-color: #304269;
   height: 15vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
-main {
+main{
   height: 70vh;
-  overflow-x: scroll; }
+  overflow-x: scroll;
+}
 
 .header-text {
   font-size: 2.5rem;
-  color: $wh; }
+  color: #FFFFFF; 
+}
 
 .box {
-  background-color: $mb;
+  background-color: #91BED4;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+}
 
 ul {
   width: 100vw;
-  padding: 5%; }
+  padding: 5%;
+}
 
-.student {
+.student{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: $wh;
+  background-color: #FFFFFF;
   height: auto;
-  margin-bottom: 1vh; }
+  margin-bottom: 1vh;
+}
 
-.photo {
+.photo{
   border-radius: 50%;
   width: 9vh;
   height: 9vh;
   object-fit: cover;
   margin: 2px 10px;
-  display: flex; }
-
-.name {
+  display: flex;
+}
+.name{
   color: $or;
   height: auto;
   width: 80vw;
   font-size: 1rem;
   display: flex;
-  padding: 2vh; }
-  @media (min-width: 600px) {
-    .name {
-      font-size: 2rem; } }
+  padding: 2vh;
 
-.dropdown {
+  @media (min-width: 600px){
+    font-size: 2rem;
+  }
+}
+
+.dropdown{
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
-.dropdown__content {
+.dropdown__content{
   color: #F26101;
   width: 30vw;
   text-align: start;
-  border: 3px solid $db;
+  border: 3px solid #304269;
   padding: 5px;
   margin-bottom: 5px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
-.contact-icon {
+.contact-icon{
   object-position: center;
   object-fit: cover;
   top: -30%;
-  height: 10vh; }
+  height: 10vh;
+}
 
 footer {
   height: 15vh;
   position: sticky;
   top: 85%;
   left: 0;
-  background: $or;
+  background: #F26101;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 footer a {
-  color: $wh;
-  font-size: 2.5rem; }
-  footer a:hover {
+  color: #FFFFFF;
+  font-size: 2.5rem;
+
+  &:hover {
     text-decoration: none;
-    color: $wh;
-    transform: scale(1.2); }
+    color: #FFFFFF;
+    transform: scale(1.2)
+  }
+}
