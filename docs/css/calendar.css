@@ -6267,6 +6267,17 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
+header {
+  background-color: #91BED4;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.name {
+  font-size: 2.5rem;
+  color: #FFFFFF; }
+
 .container {
   height: 70vh; }
 
