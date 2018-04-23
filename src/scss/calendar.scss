@@ -13,9 +13,6 @@ header {
   color: #FFFFFF; 
 }
 
-.container{
-  height:70vh;
-}
 .calbox {
   display: flex;
   flex-wrap: wrap;
@@ -26,6 +23,7 @@ header {
   padding: 1em;
   background: #91BED4;
   color: white;
+  height:70vh;
 }
 
 .week {
