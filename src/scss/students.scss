@@ -1,5 +1,9 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
+body{
+  height: 100vh;
+}
+
 header {
   background-color: #91BED4;
   height: 15vh;
@@ -8,14 +12,11 @@ header {
   align-items: center;
 }
 
-.name {
+.header-text {
   font-size: 2.5rem;
   color: #FFFFFF; 
 }
 
-body{
-  height: 100vh;
-}
 .box {
   background-color: #304269;
   display: flex;
@@ -24,9 +25,6 @@ body{
   align-items: center;
 }
 
-.header{
-  height: 15vh;
-}
 .footer{
   height: 15vh;
 }
