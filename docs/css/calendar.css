@@ -6278,15 +6278,15 @@ header {
   font-size: 2.5rem;
   color: #FFFFFF; }
 
+main {
+  background: #91BED4; }
+
 .calbox {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
-  width: 100%;
-  height: 100%;
   padding: 1em;
-  background: #91BED4;
   color: white;
   height: 70vh; }
 
