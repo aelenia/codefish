@@ -6276,7 +6276,7 @@ header {
 
 .header-text {
   font-size: 2.5rem;
-  color: #F26101; }
+  color: #FFFFFF; }
 
 main {
   background: #91BED4; }
@@ -6288,7 +6288,7 @@ main {
   align-items: center;
   padding: 1em;
   background: #91BED4;
-  color: #F26101;
+  color: #FFFFFF;
   height: 70vh; }
 
 .week {
@@ -6319,10 +6319,9 @@ label {
   border-radius: 3px;
   padding-bottom: 10px;
   border: 2px solid #304269;
-  background-color: #F26101; }
+  background-color: #FFFFFF; }
 
 .att_button:hover {
-  background: #F26101;
   border-width: 3px;
   border-color: #F26101; }
 
@@ -6337,9 +6336,9 @@ footer {
   align-items: center; }
 
 footer a {
-  color: #F26101;
+  color: #FFFFFF;
   font-size: 2.5rem; }
   footer a:hover {
     text-decoration: none;
-    color: #F26101;
+    color: #FFFFFF;
     transform: scale(1.2); }

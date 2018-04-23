@@ -6321,8 +6321,7 @@ ul {
   padding: 2vh; }
   @media (min-width: 600px) {
     .name {
-      font-size: 2rem; }
-    }
+      font-size: 2rem; } }
 
 .dropdown {
   display: flex;
