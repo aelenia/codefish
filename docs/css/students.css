@@ -6267,65 +6267,115 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
-body {
-  height: 100vh; }
+$db: #304269;
+$mb:#91BED4;
+$lb: #D9E8F5;
+$wh: #FFFFFF;
+$or: #F26101;
+
+body{
+  height: 100vh;
+}
+
+header {
+  background-color: $mb;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 2.5rem;
+  color: $wh; 
+}
 
 .box {
-  background-color: #D9E8F5;
+  background-color: $lb;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center; }
+  align-items: center;
+}
 
 ul {
   width: 100vw;
-  padding: 5%; }
+  padding: 5%;
+}
 
-.student {
+.student{
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #FFFFFF;
+  
+  background-color: $wh;
   height: auto;
-  margin-bottom: 1vh; }
+  margin-bottom: 1vh;
+}
 
-.photo {
+.photo{
   border-radius: 50%;
   width: 9vh;
   height: 9vh;
   object-fit: cover;
   margin: 2px 10px;
-  display: flex; }
-
-.name {
-  color: #F26101;
+  display: flex;
+}
+.name{
+  color: $or;
   height: auto;
   width: 80vw;
-  font-weight: bold;
   font-size: 1rem;
   display: flex;
-  padding: 2vh; }
-  @media (min-width: 600px) {
-    .name {
-      font-size: 2rem; } }
+  padding: 2vh;
 
-.dropdown {
+  @media (min-width: 600px){
+    font-size: 2rem;
+  }
+}
+
+.dropdown{
   display: flex;
   justify-content: space-evenly;
   align-items: flex-end;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
-.dropdown__content {
-  color: #F26101;
+.dropdown__content{
+  color: $or;
   width: 30vw;
   text-align: start;
-  border: 3px solid #304269;
+  border: 3px solid $db;
   padding: 5px;
   margin-bottom: 5px;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
-.contact-icon {
+.contact-icon{
   object-position: center;
   object-fit: cover;
   top: -30%;
-  height: 10vh; }
+  height: 10vh;
+}
+
+footer {
+  height: 15vh;
+  position: sticky;
+  top: 85%;
+  left: 0;
+  background: $or;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: $wh;
+  font-size: 2.5rem;
+
+  &:hover {
+    text-decoration: none;
+    color: $wh;
+    transform: scale(1.2)
+  }
+}

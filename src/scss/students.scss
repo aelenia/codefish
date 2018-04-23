@@ -10,6 +10,19 @@ body{
   height: 100vh;
 }
 
+header {
+  background-color: $mb;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 2.5rem;
+  color: $wh; 
+}
+
 .box {
   background-color: $lb;
   display: flex;
@@ -45,7 +58,6 @@ ul {
   color: $or;
   height: auto;
   width: 80vw;
-  font-weight: bold;
   font-size: 1rem;
   display: flex;
   padding: 2vh;
@@ -77,4 +89,26 @@ ul {
   object-fit: cover;
   top: -30%;
   height: 10vh;
+}
+
+footer {
+  height: 15vh;
+  position: sticky;
+  top: 85%;
+  left: 0;
+  background: $or;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: $wh;
+  font-size: 2.5rem;
+
+  &:hover {
+    text-decoration: none;
+    color: $wh;
+    transform: scale(1.2)
+  }
 }
