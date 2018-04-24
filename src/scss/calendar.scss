@@ -1,17 +1,6 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-header {
-  background-color: #304269;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text {
-  font-size: 2.5rem;
-  color: #FFFFFF; 
-}
+@import 'base.scss';
 
 main {
   background: #91BED4;
@@ -41,8 +30,6 @@ main {
   height: 2.1em;
   width: 6em;
   margin: 0;
-
-  //border-radius: 20%;
 }
 
 .notes {
@@ -69,26 +56,4 @@ label {
   background: #FFFFFF;
   border-width: 3px;
   border-color: #F26101;
-}
-
-footer {
-  height: 15vh;
-  position: sticky;
-  top: 85%;
-  left: 0;
-  background: #F26101;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer a {
-  color: #FFFFFF;
-  font-size: 2.5rem;
-
-  &:hover {
-    text-decoration: none;
-    color: #FFFFFF;
-    transform: scale(1.2)
-  }
 }
