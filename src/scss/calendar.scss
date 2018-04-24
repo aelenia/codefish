@@ -3,7 +3,7 @@
 @import 'base.scss';
 
 main {
-  background: #91BED4;
+  background: $mid-blue;
 }
 
 .calendar {
@@ -12,8 +12,8 @@ main {
   justify-content: start;
   align-items: center;
   padding: 1em;
-  background: #91BED4;
-  color: #FFFFFF;
+  background: $mid-blue;
+  color: $white;
   height:70vh;
 }
 
@@ -48,12 +48,12 @@ label {
   width: 65px;
   border-radius: 3px;
   padding-bottom: 10px;
-  border: 2px solid #304269;
-  background-color: #FFFFFF;
+  border: 2px solid $darkblue;
+  background-color: $white;
 }
 
 .calendar__btn:hover{
-  background: #FFFFFF;
+  background: $white;
   border-width: 3px;
-  border-color: #F26101;
+  border-color: $orange;
 }

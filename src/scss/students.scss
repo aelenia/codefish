@@ -8,7 +8,7 @@ main{
 }
 
 .bg__box {
-  background-color: #91BED4;
+  background-color: $mid-blue;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -24,7 +24,7 @@ ul {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: $white;
   height: auto;
   margin-bottom: 1vh;
 }
@@ -39,7 +39,7 @@ ul {
 }
 
 .student__name{
-  color: #F26101;
+  color: $orange;
   height: auto;
   width: 80vw;
   font-size: 1rem;
@@ -59,10 +59,10 @@ ul {
 }
 
 .student__dropdown--content{
-  color: #F26101;
+  color: $orange;
   width: 30vw;
   text-align: start;
-  border: 3px solid #304269;
+  border: 3px solid $darkblue;
   padding: 5px;
   margin-bottom: 5px;
   margin-right: 10px;

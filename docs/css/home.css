@@ -6279,7 +6279,7 @@ header {
   color: #FFFFFF; }
 
 .box {
-  background: white;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
