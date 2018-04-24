@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run img && npm run js-dependencies && npm run bs | npm run watch | npm run sass",
     "js-dependencies": "cp node_modules/bootstrap/dist/js/bootstrap.js docs/js/bootstrap.js && cp node_modules/jquery/dist/jquery.js docs/js/jquery.js && cp node_modules/popper.js/dist/popper.js docs/js/popper.js",
-    "js": "cp src/js/calendar.js docs/js/calendar.js",
+    "js": "cp src/js/calendar.js docs/js/calendar.js && cp src/js/students.js docs/js/students.js",
     "sass": "node-sass src/scss/home.scss docs/css/home.css && node-sass src/scss/students.scss docs/css/students.css && node-sass src/scss/calendar.scss docs/css/calendar.css && node-sass src/scss/home.scss docs/css/home.css -w src/scss | node-sass src/scss/students.scss docs/css/students.css -w src/scss | node-sass src/scss/calendar.scss docs/css/calendar.css -w src/scss",
     "img": "cp -r src/img docs",
     "bs": "browser-sync start --server --serveStatic 'docs' --files 'docs'",
