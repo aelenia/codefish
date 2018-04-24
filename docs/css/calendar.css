@@ -6281,7 +6281,7 @@ header {
 main {
   background: #91BED4; }
 
-.calbox {
+.calendar {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
@@ -6291,14 +6291,14 @@ main {
   color: #F26101;
   height: 70vh; }
 
-.week {
+.calendar__week {
   display: inline;
   width: 2em;
   height: 2em;
   margin: 0;
   border-radius: 20%; }
 
-.weekday {
+.calendar__weekday {
   display: inline;
   height: 2.1em;
   width: 6em;
@@ -6312,7 +6312,7 @@ main {
 label {
   font-size: 25px; }
 
-.att_button {
+.calendar__btn {
   text-align: center;
   height: 50px;
   width: 65px;
@@ -6321,7 +6321,7 @@ label {
   border: 2px solid #304269;
   background-color: #F26101; }
 
-.att_button:hover {
+.calendar__btn:hover {
   background: #F26101;
   border-width: 3px;
   border-color: #F26101; }
