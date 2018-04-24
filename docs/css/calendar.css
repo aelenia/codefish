@@ -6277,7 +6277,7 @@ header {
 
 .header-text {
   font-size: 2.5rem;
-  color: #F26101; 
+  color: #FFFFFF;
 }
 
 main {
@@ -6291,8 +6291,8 @@ main {
   align-items: center;
   padding: 1em;
   background: #91BED4;
-  color: #F26101;
-  height:70vh;
+  color: #FFFFFF;
+  height: 70vh;
 }
 
 .week {
@@ -6308,18 +6308,12 @@ main {
   height: 2.1em;
   width: 6em;
   margin: 0;
-
-  //border-radius: 20%;
 }
 
 .notes {
   display: block;
   width: 100%;
   height: 66%;
-}
-
-.btn {
-  //margin-left: auto;
 }
 
 label {
@@ -6333,11 +6327,9 @@ label {
   border-radius: 3px;
   padding-bottom: 10px;
   border: 2px solid #304269;
-  background-color: #F26101;
-}
+  background-color: #FFFFFF; }
 
-.att_button:hover{
-  background: #F26101;
+.att_button:hover {
   border-width: 3px;
   border-color: #F26101;
 }
@@ -6354,12 +6346,12 @@ footer {
 }
 
 footer a {
-  color: #F26101;
+  color: #FFFFFF;
   font-size: 2.5rem;
+}
 
-  &:hover {
-    text-decoration: none;
-    color: #F26101;
-    transform: scale(1.2)
-  }
+footer a:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  transform: scale(1.2);
 }

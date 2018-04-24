@@ -6326,8 +6326,10 @@ ul {
   font-size: 1rem;
   display: flex;
   padding: 2vh;
+}
 
-  @media (min-width: 600px){
+@media (min-width: 600px) {
+  .name {
     font-size: 2rem;
   }
 }
@@ -6370,10 +6372,10 @@ footer {
 footer a {
   color: #FFFFFF;
   font-size: 2.5rem;
+}
 
-  &:hover {
-    text-decoration: none;
-    color: #FFFFFF;
-    transform: scale(1.2)
-  }
+footer:hover {
+  text-decoration: none;
+  color: #FFFFFF;
+  transform: scale(1.2)
 }
