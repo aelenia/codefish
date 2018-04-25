@@ -6297,14 +6297,9 @@ footer a {
     transform: scale(1.2); }
 
 main {
+  background: #91BED4;
   height: 70vh;
   overflow-x: scroll; }
-
-.bg__box {
-  background-color: #91BED4;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; }
 
 .box {
   display: flex;
