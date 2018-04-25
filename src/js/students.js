@@ -4,7 +4,7 @@ console.log(templateEl)
 const listTemplate = templateEl.innerHTML
 console.log(listTemplate)
 
-const studentListHtml = document.querySelector('.students__list')
+const studentListHtml = document.querySelector('.student__list')
 const studentList = [
     { name: 'Alexa', email: 'Maxmustermann@gmail.com', mobile:'040/12345678', bday:'05.01.1986' },
     { name: 'Christian', email: 'Maxmustermann@gmail.com', mobile:'mobile', bday:'01.01.1980' },
@@ -20,7 +20,7 @@ const studentList = [
     { name: 'Michael', email: 'Maxmustermann@gmail.com', mobile:'mobile', bday:'01.01.1980' },
     { name: 'Natalia', email: 'Maxmustermann@gmail.com', mobile:'mobile', bday:'01.01.1980' },
     { name: 'Philipp', email: 'Maxmustermann@gmail.com', mobile:'mobile', bday:'01.01.1980' },
-    { name: 'Barni', email: 'Maxmustermann@gmail.com', mobile:'mobile', bday:'01.01.1980' },
+    { name: 'Barney', email: 'Maxmustermann@gmail.com', mobile:'mobile', bday:'01.01.1980' },
 ]
 
 studentList.forEach(createStudentList)
