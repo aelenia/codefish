@@ -1,34 +1,23 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-header {
-  background-color: #304269;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text {
-  font-size: 2.5rem;
-  color: #FFFFFF; 
-}
+@import 'base.scss';
 
 main {
-  background: #91BED4;
+  background: $mid-blue;
 }
 
-.calbox {
+.calendar {
   display: flex;
   flex-wrap: wrap;
   justify-content: start;
   align-items: center;
   padding: 1em;
-  background: #91BED4;
-  color: #FFFFFF;
+  background: $mid-blue;
+  color: $white;
   height:70vh;
 }
 
-.week {
+.calendar__week {
   display: inline;
   width: 2em;
   height: 2em;
@@ -36,13 +25,11 @@ main {
   border-radius: 20%;
 }
 
-.weekday {
+.calendar__weekday {
   display: inline;
   height: 2.1em;
   width: 6em;
   margin: 0;
-
-  //border-radius: 20%;
 }
 
 .notes {
@@ -51,47 +38,21 @@ main {
   height: 66%;
 }
 
-.btn {
-  //margin-left: auto;
-}
-
 label {
   font-size: 25px;
 }
 
-.att_button{
+.calendar__btn{
   text-align: center;
   height: 50px;
   width: 65px;
   border-radius: 3px;
   padding-bottom: 10px;
-  border: 2px solid #304269;
-  background-color: #FFFFFF;
+  border: 2px solid $darkblue;
+  background-color: $white;
 }
 
-.att_button:hover{
+.calendar__btn:hover{
   border-width: 3px;
-  border-color: #F26101;
-}
-
-footer {
-  height: 15vh;
-  position: sticky;
-  top: 85%;
-  left: 0;
-  background: #F26101;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer a {
-  color: #FFFFFF;
-  font-size: 2.5rem;
-
-  &:hover {
-    text-decoration: none;
-    color: #FFFFFF;
-    transform: scale(1.2)
-  }
+  border-color: $orange;
 }

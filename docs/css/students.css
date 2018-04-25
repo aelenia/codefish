@@ -6267,9 +6267,6 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered td {
     border: 1px solid #dee2e6 !important; } }
 
-body {
-  height: 100vh; }
-
 header {
   background-color: #304269;
   height: 15vh;

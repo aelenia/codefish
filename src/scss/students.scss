@@ -1,26 +1,11 @@
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-body{
-  height: 100vh;
-}
-
-header {
-  background-color: #304269;
-  height: 15vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-text {
-  font-size: 2.5rem;
-  color: #FFFFFF; 
-}
+@import 'base.scss';
 
 main {
   height: 70vh;
   overflow-y: scroll;
-  background-color: #91BED4;
+  background-color: $mid-blue;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -48,7 +33,7 @@ main {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: $white;
   height: auto;
   margin-bottom: 1vh;
 }
@@ -84,7 +69,7 @@ main {
   flex-direction: column;
   width: 40%;
   text-align: right;
-  color: #F26101;
+  color: $orange;
   padding: 1rem 1rem 1rem 0;
 
   @media (min-width:600px) {
@@ -94,29 +79,4 @@ main {
 
 .student__icon {
   width: 3rem;
-}
-
-.student__dropdown--content {
-}
-
-footer {
-  height: 15vh;
-  position: sticky;
-  top: 85%;
-  left: 0;
-  background: #F26101;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer a {
-  color: #FFFFFF;
-  font-size: 2.5rem;
-
-  &:hover {
-    text-decoration: none;
-    color: #FFFFFF;
-    transform: scale(1.2)
-  }
 }
