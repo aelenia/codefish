@@ -1,0 +1,36 @@
+@import 'colors.scss';
+
+header {
+  background-color: $darkblue;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-text {
+  font-size: 2.5rem;
+  color: $white; 
+}
+
+footer {
+  height: 15vh;
+  position: sticky;
+  top: 85%;
+  left: 0;
+  background: $orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: $white;
+  font-size: 2.5rem;
+
+  &:hover {
+    text-decoration: none;
+    color: $white;
+    transform: scale(1.2)
+  }
+}

@@ -6279,7 +6279,7 @@ header {
   color: #FFFFFF; }
 
 .box {
-  background: white;
+  background: #FFFFFF;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -6311,8 +6311,8 @@ a {
       height: 50vh;
       width: 40vw; } }
 
-.students {
+.box__students {
   background: #F26101; }
 
-.calendar {
+.box__calendar {
   background: #304269; }
